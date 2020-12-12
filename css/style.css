@@ -1,0 +1,1065 @@
+* {
+    padding: 0;
+    margin: 0;
+    font: 14px 'Open sans', sans-serif;
+    color: black;
+    transition: all .4s ease-in-out;
+}
+
+body {
+    background-image: url("../Immagini/sfondo.jpg");
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    background-color:#5F5F5F;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: black;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 20px;
+	font-size: 20px;
+}
+
+h3 {
+    margin: 0;
+    margin-bottom: 20px;
+	font-size: 12px;
+}
+
+.titoletto {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.titoletto-index {
+    position: absolute;
+}
+
+.titoletto-index-glance {
+    position: absolute;
+    top: 10%;
+}
+
+
+.titoletto-main {
+    position: absolute;
+    top: 22%;
+}
+
+.contatti {
+    position: absolute;
+    top: 130%;
+    left: 35%; 
+}
+
+.contact-form {
+    color: #5F5F5F;
+    border-radius: 6px;
+}
+
+.invia-form {
+    border-radius: 6px;
+    width: 60px;
+    height: 30px;
+    margin: 24px;
+    color: black;
+}
+
+.invia-form:hover {
+    color: black;
+    background-color: green;
+}
+
+.selezione {
+    color: black;
+}
+
+.menuSelect {
+    color: black;
+}
+
+.form {
+    border: 3px solid #f1f1f1;
+}
+
+.form-login {
+    position: absolute;
+    top: 23%;
+    left: 35%;
+    border: 1px solid #5F5F5F;
+    margin:auto;
+    width: 320px;
+    height: 390px;
+    border-radius: 0px 0px 40px 40px;
+    padding:20px;
+    background-color: #5F5F5F;
+    box-shadow: 20px 20px 20px #ccc;
+    color:white;
+    text-align: center;
+}
+
+.form-login input {
+    margin-bottom: 20px;
+    border:1px solid black;
+    height: 30px;
+    color:white;
+    margin: 6px;
+}
+
+.form-login input[type="text"] {
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.form-login input[type="password"] {
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.form-login input[type="submit"] {  
+	border-radius: 14px;
+    height: 40px;
+    background-color: #5F5F5F;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 50%;
+}
+
+.contatti-content {
+    position: absolute;
+    top: 15%;
+}
+
+.allinea-bottone {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.inserisci-prenotazione {
+    border-radius: 10px;
+    height: 20px;
+    background-color: white;
+    color:#5F5F5F;
+    padding: 6px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+
+.inserisci {
+    border-radius: 14px;
+    height: 40px;
+    background-color: #5F5F5F;
+    color: white;
+    padding: 6px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 8%;
+}
+
+.inserisci:hover {
+    background-color: green;
+}
+
+.sopra:hover {
+    color: blue;
+}
+
+.form-login input[type="submit"]:hover{  /* i css si riferiscono solo al pulsante */
+	background-color: green;
+}
+
+input[type=reset] {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.bottone-prenotazione {
+    border-radius: 14px;
+    height: 60px;
+    background-color: #5F5F5F;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+.bottone-cancellazione {
+    border-radius: 14px;
+    height: 50px;
+    background-color: #5F5F5F;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 12%;
+}
+
+.bottone-modificazione {
+    border-radius: 14px;
+    height: 50px;
+    background-color: #5F5F5F;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 12%;
+}
+
+.bottone-prenotazione:hover { 
+	background-color: green;
+}
+
+.bottone-modificazione:hover { 
+	background-color: green;
+}
+
+.areapersonale input[type=password] { 
+    color: #5F5F5F;
+    width: 300px;
+    height: 20px;
+    border-radius: 6px;
+}
+
+.areapersonale input[type=password]:focus { 
+    border: 1px solid #f44336;
+}
+
+.areapersonale input[type=email] { 
+    color: #5F5F5F;
+    width: 300px;
+    height: 20px;
+    border-radius: 6px;
+}
+
+.areapersonale input[type=email]:focus { 
+    border: 1px solid #f44336;
+}
+
+.areapersonale input[type=submit] { 
+    color: #5F5F5F;
+    width: 150px;
+    height: 20px;
+}
+
+.areapersonale input[type=submit]:hover { 
+    background-color: green;
+    color: black;
+}
+
+.titolo-link {
+    font-size: 32px;
+}
+
+.titolo-link:hover {
+    color: blue;
+}
+
+.bottone-cancellazione:hover {  
+    background-color: red;
+}
+
+.bottone-ciao:hover {
+    background-color: green;
+    color: black;
+}
+
+.mostra {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    text-align: center;
+}
+
+.show {
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    width: 300px;
+    color: #fff;
+    padding: 4px 2px;
+    border: solid 1px #000000;
+    background: #5F5F5F;
+    background-image: url("../Immagini/show_password.png");
+    background-repeat: no-repeat;
+}
+
+.show:hover {
+    background-color: green;
+    color: black;
+}
+
+.colora {
+    color: #5F5F5F;
+    padding: 4px 2px;
+    border-radius: 10px;
+}
+
+.container-prenotazione {
+    color: #5F5F5F;
+}
+
+.prenotazione {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=button]:hover{
+    opacity: 0.8;
+}
+
+.regbutton:hover{  /* i css si riferiscono solo al pulsante */
+	background-color: green;
+}
+
+input#registrazione {
+    position: absolute;
+    color: black;
+    top: 95%;
+    left: 35%;
+    width: 120px;
+    height: 40px;
+    margin: 6px;
+}
+
+input#reset2 {
+    position: absolute;
+    top: 110%;
+    left: 35%;
+}
+  
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+input[type=text]:focus {
+    border: 1px solid #f44336;
+}
+
+input[type=password]:focus {
+    border: 1px solid #f44336;
+}
+
+.organizzatore {
+    position: absolute;
+    top: 88%;
+    left: 57%;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+.container-registrazione {
+    padding: 18px;
+    position: absolute;
+    display: table-column;
+    top: 10%;
+    margin: auto;
+}   
+
+.container-home {
+    padding: 18px;
+    position: absolute;
+    top: 10%;
+}
+
+.reset-home {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+span {
+    padding: 6px;
+}
+
+.fondo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.psw {
+    color: white;
+}
+
+.psw:hover {
+    color: blue;
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+    max-width: 250px;
+    max-height: 150px;
+}
+
+/* index.php */ 
+
+.logo {
+    position: absolute;
+    top: 8%;
+    left: 0%;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.riquadroacarte {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    position: absolute;
+    top: 30%;
+}
+
+.riquadro-a-carte-sagre {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    position: absolute;
+    top: 10%;
+    left: 10px;
+}
+
+.riquadro-a-carte-concerto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    position: absolute;
+    top: 10%;
+    left: 340px;
+}
+
+.riquadro-a-carte-evento {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    position: absolute;
+    top: 10%;
+    left: 670px;
+}
+
+.riquadro-a-carte-staff {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    position: absolute;
+    top: 10%;
+    left: 1000px;
+}
+
+.evento_container {
+    border: 1px solid black; 
+    background-color: orange; 
+    border-radius: 5px;
+    margin: 5px 5px;
+}
+
+.messaggio_container {
+    border: 1px solid black; 
+    background-color: orange; 
+    width: 500px;
+    border-radius:10px;
+    margin: 15px 15px;
+}
+
+.container-messaggi {
+    display: flex;
+    flex-direction: row;
+}
+
+.admin {
+    position: absolute;
+    top: 10%;
+    left: 18%;
+}
+
+.bottone-ciao{
+    color:black;
+}
+
+h3#sagre {
+    position: absolute;
+    top: 5%;
+    left: 8%;
+}
+
+h3#concerti {
+    position: absolute;
+    top: 5%;
+    left: 34%;
+}
+
+h3#eventi {
+    position: absolute;
+    top: 5%;
+    left: 56%;
+}
+
+h3#staff {
+    position: absolute;
+    top: 5%;
+    left: 82%;
+}
+
+.card {
+    overflow: visible;
+    display: block;
+    height: 200px;
+    width: 450px;
+    padding: 0 15px 15px;
+    color: #428bca;
+    text-decoration: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.4s;    
+    border-radius: 8px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,1.4);
+    opacity: 0.85;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.container p {
+    color: white;
+}
+
+.container-checkbox {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+}
+
+.categoria {
+    font-weight: bold;
+}
+
+.evento {
+    border: solid 3px #333;
+    margin: 6px 0 0 6px;
+    padding: 120px;
+    display: flex;
+    flex-direction: row;
+}
+
+.riquadro-evento {
+    border: solid 2px #5F5F5F;
+    padding: 70px;
+}
+
+.content {
+    position: absolute;
+    top: 10%;
+}
+
+.content-glance {
+    position: absolute;
+    top: 20%;
+}
+
+.mappa {
+    position: absolute;
+    top: 30%; 
+    left: 20%;  
+}
+
+iframe {
+    width: 800px;
+    height: 650px;
+    border: 1px;
+}
+
+.tabella-contatti {
+    border: 0;
+}
+
+.titoletto-glance {
+    position: absolute;
+    top: 10%;   
+}
+
+.maxpartecipanti {
+    border-radius: 10px;
+    height: 20px;
+    background-color: white ;
+    color:#5F5F5F;
+    cursor: pointer;
+    width: 300px;
+    text-align: center;
+}
+
+.titolo {
+    position: absolute;
+    top: 8%;
+    left: 5%;   
+}
+
+.titolo2 {
+    position: absolute;
+    top: 8%;
+    left: 35%;   
+}
+
+.titolo_ref {
+    font-size: 32px;
+}
+
+.titolo_ref:hover {
+    color: blue;
+}
+
+.titolo-login {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    width:320px;
+    text-align: center;
+    margin:auto;
+    height:50px;
+    border:1px solid #5F5F5F;
+    border-radius: 40px 40px 0px 0px;
+    background-color: #5F5F5F;
+    box-shadow: 20px 30px 20px #ccc;
+    padding:20px;
+}
+
+.titolo-registrazione {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    width:320px;
+    text-align: center;
+    margin:auto;
+    height:50px;
+    border:1px solid #5F5F5F;
+    border-radius: 40px 40px 0px 0px;
+    background-color: #5F5F5F;
+    box-shadow: 20px 30px 20px #ccc;
+    padding:20px;
+}
+
+.form-registrazione {
+    position: absolute;
+    top: 23%;
+    left: 32%;
+    border:1px solid #5F5F5F;
+    margin:auto;
+    width: 400px;
+    height: 700px;
+    border-radius: 40px 40px 40px 40px;
+    padding:20px;
+    background-color: #5F5F5F;
+    box-shadow: 20px 20px 20px #ccc;
+    color:white;
+    text-align: center;
+}
+
+.form-registrazione input[type='text'], input[type='password']{
+    color: #5F5F5F;
+    width: 80%;
+    padding: 6px;
+    margin: 6px;
+}
+
+.form-registrazione input[type='date'], input[type='password']{
+    color: #5F5F5F;
+    width: 80%;
+    padding: 6px;
+    margin: 6px;
+}
+
+.reset-home {
+    position: absolute;
+    top: 110%;
+    left: 35%;
+}
+
+.aggiungi {
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    width: 120px;
+    height: 30px;
+}
+
+.aggiungi:hover {
+    background-color: green;
+    color:black;
+}
+
+.torna:hover {
+    background-color: green;
+    color:black;
+}
+
+.nav-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #5F5F5F;
+    text-align: center;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    transition: all .4s ease-in-out;
+}
+
+nav a {
+    align-self: center;
+    text-decoration: none;
+    color: black;
+    width: 230px;
+    font-size: 2em;
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    position: absolute;
+    top: 10%;   
+}
+
+@media (max-width: 1200px) {  
+    
+    .titolo {
+        position: absolute;
+        top: 8%;
+        left: 6%;   
+    }
+
+    nav a {
+        align-self: center;
+        text-decoration: none;
+        color: black;
+        width: 250px;
+        font-size: 2em;
+        color: white;
+    }
+
+    .titolo-login {
+        position: absolute;
+        top:3%;
+        left: 41%;
+    }
+
+    .titolo-registrazione {
+        position: absolute;
+        top:3%;
+        left: 41%;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: space-around;
+        position: absolute;
+        top: 250%;   
+    }
+    
+
+} 
+
+/* for desktops */
+
+@media (max-width: 991px) { 
+    
+    .titolo {
+        position: absolute;
+        top: 8%;
+        left: 10%;   
+    }
+
+    nav a {
+        align-self: center;
+        text-decoration: none;
+        color: black;
+        width: 200px;
+        font-size: 2em;
+        color: white;
+    }
+
+    .titolo-login {
+        position: absolute;
+        top:3%;
+        left: 35%;
+    }
+
+    .titolo-registrazione {
+        position: absolute;
+        top:3%;
+        left: 35%;
+    }
+    
+    .main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: space-around;
+        position: absolute;
+        top: 250%;   
+    }
+
+} 
+
+/* for laptops */
+
+@media (min-width: 768px) and (max-width: 990px) {
+    
+    .titolo {
+        position: absolute;
+        top: 8%;
+        left: 12%;   
+    }
+
+    nav a {
+        font-size: 0px;
+        width: 150px;
+    }
+
+    .titolo-login {
+        position: absolute;
+        top:3%;
+        left: 30%;
+    }
+
+    .titolo-registrazione {
+        position: absolute;
+        top:3%;
+        left: 30%;
+    }
+    
+    .main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: space-around;
+        position: absolute;
+        top: 250%;   
+    }
+
+} 
+
+/* for large tablets */
+
+@media (max-width: 768px) { 
+    .titolo {
+        position: absolute;
+        top: 8%;
+        left: 17%;   
+    }
+
+    nav a {
+        font-size: 0px;
+        width: 120px;
+    }
+
+    .titolo-login {
+        position: absolute;
+        top:3%;
+        left: 25%;
+    }
+
+    .titolo-registrazione {
+        position: absolute;
+        top:3%;
+        left: 25%;
+    }
+    
+    .main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: space-around;
+        position: absolute;
+        top: 250%;   
+    }
+
+} 
+
+/* for smaller tablets */
+
+@media (max-width: 500px) { 
+    .titolo {
+        position: absolute;
+        top: 8%;
+        left: 22%;   
+    }
+
+    nav a {
+        font-size: 0px;
+        width: 80px;
+    }
+
+    .titolo-login {
+        position: absolute;
+        top:3%;
+        left: 18%;
+    }
+
+    .titolo-registrazione {
+        position: absolute;
+        top:3%;
+        left: 18%;
+    }
+    
+    .main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: space-around;
+        position: absolute;
+        top: 250%;   
+    }
+} 
